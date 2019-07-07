@@ -10,7 +10,7 @@ target 'GoogleMapsWG' do
   target 'GoogleMapsWGTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'GoogleMaps', '2.7.0'
+#    pod 'GoogleMaps', '2.7.0'
   end
 
 end
