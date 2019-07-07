@@ -9,14 +9,13 @@
 Pod::Spec.new do |s|
   s.name         = "GoogleMapsWG"
   s.version      = "0.0.1"
-  s.summary      = "A short description of GoogleMapsWG."
-  s.description  = "dsfdsaf"
-  s.homepage     = "http://EXAMPLE/GoogleMapsWG"
-  s.license      = "MIT (example)"
+  s.summary      = "Reuse of GoogleMaps as framework"
+  s.description  = "Reuse of GoogleMaps as framework for dynamic behavior"
+  s.homepage     = "https://github.com/kondranton/GoogleMaps"
+  s.license      = { :type => 'Private', :text => 'Reuse' }
   s.author       = { "Anton" => "akondranton@gmail.com" }
   s.source       = { :git => "https://github.com/kondranton/GoogleMaps.git", :tag => "#{s.version}" }
   s.source_files  = "GoogleMapsWG/*"
-  s.exclude_files = "Classes/Exclude"
   s.swift_version = "5.0"
   s.libraries = ['z', 'sqlite3']
   s.module_map = 'GoogleMapsWG/module.modulemap'
