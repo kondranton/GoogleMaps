@@ -1,23 +1,23 @@
 #
-#  Be sure to run `pod spec lint GoogleMapsWG.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
+#  Be sure to run `pod s lint GoogleMapsWG.pods' to ensure this is a
+#  valid s and to remove all comments including this before submitting the s.
 #
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#  To learn more about Pods attributes see https://guides.cocoapods.org/syntax/pods.html
+#  To see working Podss in the CocoaPods repo see https://github.com/CocoaPods/ss/
 #
 
-Pod::Spec.new do |s|
-  spec.name         = "GoogleMapsWG"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of GoogleMapsWG."
-  spec.description  = "dsfdsaf"
-  spec.homepage     = "http://EXAMPLE/GoogleMapsWG"
-  spec.license      = "MIT (example)"
-  spec.author       = { "Anton" => "akondranton@gmail.com" }
-  spec.source       = { :git => "https://github.com/kondranton/GoogleMaps.git", :tag => "#{spec.version}" }
-  spec.source_files  = "GoogleMapsWG/*"
-  spec.exclude_files = "Classes/Exclude"
-  spec.swift_version = "5.0"
+Pod::s.new do |s|
+  s.name         = "GoogleMapsWG"
+  s.version      = "0.0.1"
+  s.summary      = "A short description of GoogleMapsWG."
+  s.description  = "dsfdsaf"
+  s.homepage     = "http://EXAMPLE/GoogleMapsWG"
+  s.license      = "MIT (example)"
+  s.author       = { "Anton" => "akondranton@gmail.com" }
+  s.source       = { :git => "https://github.com/kondranton/GoogleMaps.git", :tag => "#{s.version}" }
+  s.source_files  = "GoogleMapsWG/*"
+  s.exclude_files = "Classes/Exclude"
+  s.swift_version = "5.0"
   s.libraries = ['z', 'sqlite3']
   s.module_map = 'GoogleMapsWG/module.modulemap'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GoogleMapsWG' }
